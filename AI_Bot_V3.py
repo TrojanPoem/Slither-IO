@@ -253,7 +253,7 @@ class random_agent:
         if not self.env.moveTo(x_target, y_target):
             print('[+] Agent selected coordinates are outside the allowale boundary.\n\tError:{}'.format(self.env.get_last_error()))
             
-#https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html
+
 class DDPG_agent:
     
     def create_actor_network(self, state_size,action_dim):
